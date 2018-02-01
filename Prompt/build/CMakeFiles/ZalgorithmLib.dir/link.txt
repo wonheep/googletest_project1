@@ -1,0 +1,2 @@
+/usr/bin/ar qc libZalgorithmLib.a  CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o
+/usr/bin/ranlib libZalgorithmLib.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBoyerMoorePreprocessingLib.a  CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.o CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.o
+/usr/bin/ranlib libBoyerMoorePreprocessingLib.a

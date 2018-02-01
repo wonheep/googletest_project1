@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ZalgorithmSanityCheck.dir/ZalgorithmSanityCheck.cpp.o  -o ZalgorithmSanityCheck  -L/gtest/mybuild -rdynamic -lgtest -lpthread libZalgorithmLib.a -Wl,-rpath,/gtest/mybuild 

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.cpp
+list
+-
+string
+-
+vector
+-
+Zalgorithm.h
+/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.h
+
+/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.h
+list
+-
+string
+-
+vector
+-
+

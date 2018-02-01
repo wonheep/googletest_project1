@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/ZalgorithmTests.dir/ZalgorithmTests.cpp.o  -o ZalgorithmTests  -L/gtest/mybuild -rdynamic -lgtest -lpthread libZalgorithmLib.a -Wl,-rpath,/gtest/mybuild 
