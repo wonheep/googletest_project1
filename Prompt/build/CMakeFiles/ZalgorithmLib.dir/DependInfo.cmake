@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.cpp" "/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o"
+  "/home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.cpp" "/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

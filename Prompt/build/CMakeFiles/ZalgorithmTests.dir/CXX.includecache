@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.h
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.h
 list
 -
 string
@@ -14,11 +14,11 @@ string
 vector
 -
 
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/ZalgorithmTests.cpp
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/ZalgorithmTests.cpp
 Zalgorithm.h
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.h
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.h
 gtest/gtest.h
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/gtest/gtest.h
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/gtest/gtest.h
 string
 -
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wonhee/Desktop/GitHub/googletest_project1/Prompt
+CMAKE_SOURCE_DIR = /home/natsand/Documents/ECS122B/googletest_project1/Prompt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build
+CMAKE_BINARY_DIR = /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ZalgorithmLib.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/ZalgorithmLib.dir/flags.make
 
 CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o: CMakeFiles/ZalgorithmLib.dir/flags.make
 CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o: ../Zalgorithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o -c /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o -c /home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.cpp
 
 CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.cpp > CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.cpp > CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.i
 
 CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.cpp -o CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.cpp -o CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.s
 
 CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o.requires:
 
@@ -91,7 +91,7 @@ ZalgorithmLib_EXTERNAL_OBJECTS =
 libZalgorithmLib.a: CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o
 libZalgorithmLib.a: CMakeFiles/ZalgorithmLib.dir/build.make
 libZalgorithmLib.a: CMakeFiles/ZalgorithmLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libZalgorithmLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libZalgorithmLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/ZalgorithmLib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ZalgorithmLib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/ZalgorithmLib.dir/clean:
 .PHONY : CMakeFiles/ZalgorithmLib.dir/clean
 
 CMakeFiles/ZalgorithmLib.dir/depend:
-	cd /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wonhee/Desktop/GitHub/googletest_project1/Prompt /home/wonhee/Desktop/GitHub/googletest_project1/Prompt /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmLib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/natsand/Documents/ECS122B/googletest_project1/Prompt /home/natsand/Documents/ECS122B/googletest_project1/Prompt /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmLib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ZalgorithmLib.dir/depend
 

@@ -6,7 +6,9 @@ add_definitions(-std=c++1z -g)
 ########## Create libraries
 add_library(ZalgorithmLib Zalgorithm.cpp)
 add_library(BoyerMoorePreprocessingLib BoyerMoorePreprocessing.cpp Zalgorithm.cpp)
+
 ########## TODO: Add library for BoyerMoore here (call it BoyerMooreLib)
+add_library(BoyerMooreLib BoyerMoore.cpp BoyerMoorePreprocessing.cpp Zalgorithm.cpp)
 
 ########## Link GoogleTest
 include_directories($ENV{GMOCK_HOME}/gtest/include)
@@ -22,6 +24,19 @@ add_custom_command(TARGET ZalgorithmTests
                    COMMAND ZalgorithmTests
                    WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
                    COMMENT "Running ZalgorithmTests" VERBATIM)
+                
+add_executable(BoyerMoorePreprocessingTests BoyerMoorePreprocessingTests.cpp)
+target_link_libraries(BoyerMoorePreprocessingTests gtest)
+target_link_libraries(BoyerMoorePreprocessingTests pthread)
+target_link_libraries(BoyerMoorePreprocessingTests ZalgorithmLib)
+target_link_libraries(BoyerMoorePreprocessingTests BoyerMooreLib)
+target_link_libraries(BoyerMoorePreprocessingTests BoyerMoorePreprocessingLib)
+add_custom_command(TARGET BoyerMoorePreprocessingTests
+                   POST_BUILD
+                   COMMAND BoyerMoorePreprocessingTests
+                   WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
+                   COMMENT "Running BoyerMoorePreprocessingTests" VERBATIM)
+
 
 ########## Create sanity checks. These should not be run on every compile, so we only build it and run manually
 add_executable(ZalgorithmSanityCheck ZalgorithmSanityCheck.cpp)
@@ -30,5 +45,13 @@ target_link_libraries(ZalgorithmSanityCheck pthread)
 target_link_libraries(ZalgorithmSanityCheck ZalgorithmLib)
 
 ########## TODO: Add sanity check for BoyerMoore (call it BoyerMooreSanityCheck) here
+add_executable(BoyerMooreSanityCheck BoyerMooreSanityCheck.cpp)
+target_link_libraries(BoyerMooreSanityCheck gtest)
+target_link_libraries(BoyerMooreSanityCheck pthread)
+target_link_libraries(BoyerMooreSanityCheck ZalgorithmLib)
+target_link_libraries(BoyerMooreSanityCheck BoyerMooreLib)
+target_link_libraries(BoyerMooreSanityCheck BoyerMoorePreprocessingLib)
+
+
 
 ########## TODO: Add sanity check for both algorithms (call it TwoAlgorithmVerificationSanityCheck) here

@@ -1,6 +1,9 @@
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/rebuild_cache.dir
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmSanityCheck.dir
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/edit_cache.dir
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmLib.dir
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmTests.dir
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/BoyerMoorePreprocessingLib.dir
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/edit_cache.dir
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/BoyerMooreSanityCheck.dir
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/BoyerMoorePreprocessingLib.dir
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmLib.dir
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/BoyerMoorePreprocessingTests.dir
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/BoyerMooreLib.dir
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/rebuild_cache.dir
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmTests.dir
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmSanityCheck.dir

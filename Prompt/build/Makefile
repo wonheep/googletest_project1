@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wonhee/Desktop/GitHub/googletest_project1/Prompt
+CMAKE_SOURCE_DIR = /home/natsand/Documents/ECS122B/googletest_project1/Prompt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build
+CMAKE_BINARY_DIR = /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -78,11 +67,22 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ZalgorithmSanityCheck
+# Target rules for targets named BoyerMooreSanityCheck
 
 # Build rule for target.
-ZalgorithmSanityCheck: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ZalgorithmSanityCheck
-.PHONY : ZalgorithmSanityCheck
+BoyerMooreSanityCheck: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BoyerMooreSanityCheck
+.PHONY : BoyerMooreSanityCheck
 
 # fast build rule for target.
-ZalgorithmSanityCheck/fast:
-	$(MAKE) -f CMakeFiles/ZalgorithmSanityCheck.dir/build.make CMakeFiles/ZalgorithmSanityCheck.dir/build
-.PHONY : ZalgorithmSanityCheck/fast
+BoyerMooreSanityCheck/fast:
+	$(MAKE) -f CMakeFiles/BoyerMooreSanityCheck.dir/build.make CMakeFiles/BoyerMooreSanityCheck.dir/build
+.PHONY : BoyerMooreSanityCheck/fast
+
+#=============================================================================
+# Target rules for targets named BoyerMoorePreprocessingLib
+
+# Build rule for target.
+BoyerMoorePreprocessingLib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BoyerMoorePreprocessingLib
+.PHONY : BoyerMoorePreprocessingLib
+
+# fast build rule for target.
+BoyerMoorePreprocessingLib/fast:
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/build
+.PHONY : BoyerMoorePreprocessingLib/fast
 
 #=============================================================================
 # Target rules for targets named ZalgorithmLib
@@ -137,6 +150,32 @@ ZalgorithmLib/fast:
 .PHONY : ZalgorithmLib/fast
 
 #=============================================================================
+# Target rules for targets named BoyerMoorePreprocessingTests
+
+# Build rule for target.
+BoyerMoorePreprocessingTests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BoyerMoorePreprocessingTests
+.PHONY : BoyerMoorePreprocessingTests
+
+# fast build rule for target.
+BoyerMoorePreprocessingTests/fast:
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingTests.dir/build.make CMakeFiles/BoyerMoorePreprocessingTests.dir/build
+.PHONY : BoyerMoorePreprocessingTests/fast
+
+#=============================================================================
+# Target rules for targets named BoyerMooreLib
+
+# Build rule for target.
+BoyerMooreLib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BoyerMooreLib
+.PHONY : BoyerMooreLib
+
+# fast build rule for target.
+BoyerMooreLib/fast:
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/build
+.PHONY : BoyerMooreLib/fast
+
+#=============================================================================
 # Target rules for targets named ZalgorithmTests
 
 # Build rule for target.
@@ -150,17 +189,44 @@ ZalgorithmTests/fast:
 .PHONY : ZalgorithmTests/fast
 
 #=============================================================================
-# Target rules for targets named BoyerMoorePreprocessingLib
+# Target rules for targets named ZalgorithmSanityCheck
 
 # Build rule for target.
-BoyerMoorePreprocessingLib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 BoyerMoorePreprocessingLib
-.PHONY : BoyerMoorePreprocessingLib
+ZalgorithmSanityCheck: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ZalgorithmSanityCheck
+.PHONY : ZalgorithmSanityCheck
 
 # fast build rule for target.
-BoyerMoorePreprocessingLib/fast:
-	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/build
-.PHONY : BoyerMoorePreprocessingLib/fast
+ZalgorithmSanityCheck/fast:
+	$(MAKE) -f CMakeFiles/ZalgorithmSanityCheck.dir/build.make CMakeFiles/ZalgorithmSanityCheck.dir/build
+.PHONY : ZalgorithmSanityCheck/fast
+
+BoyerMoore.o: BoyerMoore.cpp.o
+
+.PHONY : BoyerMoore.o
+
+# target to build an object file
+BoyerMoore.cpp.o:
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/BoyerMoore.cpp.o
+.PHONY : BoyerMoore.cpp.o
+
+BoyerMoore.i: BoyerMoore.cpp.i
+
+.PHONY : BoyerMoore.i
+
+# target to preprocess a source file
+BoyerMoore.cpp.i:
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/BoyerMoore.cpp.i
+.PHONY : BoyerMoore.cpp.i
+
+BoyerMoore.s: BoyerMoore.cpp.s
+
+.PHONY : BoyerMoore.s
+
+# target to generate assembly for a file
+BoyerMoore.cpp.s:
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/BoyerMoore.cpp.s
+.PHONY : BoyerMoore.cpp.s
 
 BoyerMoorePreprocessing.o: BoyerMoorePreprocessing.cpp.o
 
@@ -169,6 +235,7 @@ BoyerMoorePreprocessing.o: BoyerMoorePreprocessing.cpp.o
 # target to build an object file
 BoyerMoorePreprocessing.cpp.o:
 	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.o
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/BoyerMoorePreprocessing.cpp.o
 .PHONY : BoyerMoorePreprocessing.cpp.o
 
 BoyerMoorePreprocessing.i: BoyerMoorePreprocessing.cpp.i
@@ -178,6 +245,7 @@ BoyerMoorePreprocessing.i: BoyerMoorePreprocessing.cpp.i
 # target to preprocess a source file
 BoyerMoorePreprocessing.cpp.i:
 	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.i
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/BoyerMoorePreprocessing.cpp.i
 .PHONY : BoyerMoorePreprocessing.cpp.i
 
 BoyerMoorePreprocessing.s: BoyerMoorePreprocessing.cpp.s
@@ -187,7 +255,62 @@ BoyerMoorePreprocessing.s: BoyerMoorePreprocessing.cpp.s
 # target to generate assembly for a file
 BoyerMoorePreprocessing.cpp.s:
 	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.s
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/BoyerMoorePreprocessing.cpp.s
 .PHONY : BoyerMoorePreprocessing.cpp.s
+
+BoyerMoorePreprocessingTests.o: BoyerMoorePreprocessingTests.cpp.o
+
+.PHONY : BoyerMoorePreprocessingTests.o
+
+# target to build an object file
+BoyerMoorePreprocessingTests.cpp.o:
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingTests.dir/build.make CMakeFiles/BoyerMoorePreprocessingTests.dir/BoyerMoorePreprocessingTests.cpp.o
+.PHONY : BoyerMoorePreprocessingTests.cpp.o
+
+BoyerMoorePreprocessingTests.i: BoyerMoorePreprocessingTests.cpp.i
+
+.PHONY : BoyerMoorePreprocessingTests.i
+
+# target to preprocess a source file
+BoyerMoorePreprocessingTests.cpp.i:
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingTests.dir/build.make CMakeFiles/BoyerMoorePreprocessingTests.dir/BoyerMoorePreprocessingTests.cpp.i
+.PHONY : BoyerMoorePreprocessingTests.cpp.i
+
+BoyerMoorePreprocessingTests.s: BoyerMoorePreprocessingTests.cpp.s
+
+.PHONY : BoyerMoorePreprocessingTests.s
+
+# target to generate assembly for a file
+BoyerMoorePreprocessingTests.cpp.s:
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingTests.dir/build.make CMakeFiles/BoyerMoorePreprocessingTests.dir/BoyerMoorePreprocessingTests.cpp.s
+.PHONY : BoyerMoorePreprocessingTests.cpp.s
+
+BoyerMooreSanityCheck.o: BoyerMooreSanityCheck.cpp.o
+
+.PHONY : BoyerMooreSanityCheck.o
+
+# target to build an object file
+BoyerMooreSanityCheck.cpp.o:
+	$(MAKE) -f CMakeFiles/BoyerMooreSanityCheck.dir/build.make CMakeFiles/BoyerMooreSanityCheck.dir/BoyerMooreSanityCheck.cpp.o
+.PHONY : BoyerMooreSanityCheck.cpp.o
+
+BoyerMooreSanityCheck.i: BoyerMooreSanityCheck.cpp.i
+
+.PHONY : BoyerMooreSanityCheck.i
+
+# target to preprocess a source file
+BoyerMooreSanityCheck.cpp.i:
+	$(MAKE) -f CMakeFiles/BoyerMooreSanityCheck.dir/build.make CMakeFiles/BoyerMooreSanityCheck.dir/BoyerMooreSanityCheck.cpp.i
+.PHONY : BoyerMooreSanityCheck.cpp.i
+
+BoyerMooreSanityCheck.s: BoyerMooreSanityCheck.cpp.s
+
+.PHONY : BoyerMooreSanityCheck.s
+
+# target to generate assembly for a file
+BoyerMooreSanityCheck.cpp.s:
+	$(MAKE) -f CMakeFiles/BoyerMooreSanityCheck.dir/build.make CMakeFiles/BoyerMooreSanityCheck.dir/BoyerMooreSanityCheck.cpp.s
+.PHONY : BoyerMooreSanityCheck.cpp.s
 
 Zalgorithm.o: Zalgorithm.cpp.o
 
@@ -195,8 +318,9 @@ Zalgorithm.o: Zalgorithm.cpp.o
 
 # target to build an object file
 Zalgorithm.cpp.o:
-	$(MAKE) -f CMakeFiles/ZalgorithmLib.dir/build.make CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o
 	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.o
+	$(MAKE) -f CMakeFiles/ZalgorithmLib.dir/build.make CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.o
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/Zalgorithm.cpp.o
 .PHONY : Zalgorithm.cpp.o
 
 Zalgorithm.i: Zalgorithm.cpp.i
@@ -205,8 +329,9 @@ Zalgorithm.i: Zalgorithm.cpp.i
 
 # target to preprocess a source file
 Zalgorithm.cpp.i:
-	$(MAKE) -f CMakeFiles/ZalgorithmLib.dir/build.make CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.i
 	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.i
+	$(MAKE) -f CMakeFiles/ZalgorithmLib.dir/build.make CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.i
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/Zalgorithm.cpp.i
 .PHONY : Zalgorithm.cpp.i
 
 Zalgorithm.s: Zalgorithm.cpp.s
@@ -215,8 +340,9 @@ Zalgorithm.s: Zalgorithm.cpp.s
 
 # target to generate assembly for a file
 Zalgorithm.cpp.s:
-	$(MAKE) -f CMakeFiles/ZalgorithmLib.dir/build.make CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.s
 	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.s
+	$(MAKE) -f CMakeFiles/ZalgorithmLib.dir/build.make CMakeFiles/ZalgorithmLib.dir/Zalgorithm.cpp.s
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/Zalgorithm.cpp.s
 .PHONY : Zalgorithm.cpp.s
 
 ZalgorithmSanityCheck.o: ZalgorithmSanityCheck.cpp.o
@@ -279,15 +405,27 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... ZalgorithmSanityCheck"
 	@echo "... edit_cache"
-	@echo "... ZalgorithmLib"
-	@echo "... ZalgorithmTests"
+	@echo "... BoyerMooreSanityCheck"
 	@echo "... BoyerMoorePreprocessingLib"
+	@echo "... ZalgorithmLib"
+	@echo "... BoyerMoorePreprocessingTests"
+	@echo "... BoyerMooreLib"
+	@echo "... rebuild_cache"
+	@echo "... ZalgorithmTests"
+	@echo "... ZalgorithmSanityCheck"
+	@echo "... BoyerMoore.o"
+	@echo "... BoyerMoore.i"
+	@echo "... BoyerMoore.s"
 	@echo "... BoyerMoorePreprocessing.o"
 	@echo "... BoyerMoorePreprocessing.i"
 	@echo "... BoyerMoorePreprocessing.s"
+	@echo "... BoyerMoorePreprocessingTests.o"
+	@echo "... BoyerMoorePreprocessingTests.i"
+	@echo "... BoyerMoorePreprocessingTests.s"
+	@echo "... BoyerMooreSanityCheck.o"
+	@echo "... BoyerMooreSanityCheck.i"
+	@echo "... BoyerMooreSanityCheck.s"
 	@echo "... Zalgorithm.o"
 	@echo "... Zalgorithm.i"
 	@echo "... Zalgorithm.s"

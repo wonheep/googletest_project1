@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/ZalgorithmTests.cpp" "/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmTests.dir/ZalgorithmTests.cpp.o"
+  "/home/natsand/Documents/ECS122B/googletest_project1/Prompt/ZalgorithmTests.cpp" "/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmTests.dir/ZalgorithmTests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmLib.dir/DependInfo.cmake"
+  "/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmLib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

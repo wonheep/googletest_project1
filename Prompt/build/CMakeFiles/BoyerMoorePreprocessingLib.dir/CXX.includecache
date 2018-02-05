@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/BoyerMoorePreprocessing.cpp
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/BoyerMoorePreprocessing.cpp
 BoyerMoorePreprocessing.h
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/BoyerMoorePreprocessing.h
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/BoyerMoorePreprocessing.h
 algorithm
 -
 map
@@ -18,9 +18,9 @@ string
 vector
 -
 Zalgorithm.h
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.h
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.h
 
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/BoyerMoorePreprocessing.h
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/BoyerMoorePreprocessing.h
 map
 -
 string
@@ -28,17 +28,23 @@ string
 vector
 -
 
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.cpp
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.cpp
 list
 -
 string
 -
 vector
 -
+iterator
+-
+iostream
+-
+cstring
+-
 Zalgorithm.h
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.h
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.h
 
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.h
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.h
 list
 -
 string

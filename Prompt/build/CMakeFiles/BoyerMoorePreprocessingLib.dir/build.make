@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wonhee/Desktop/GitHub/googletest_project1/Prompt
+CMAKE_SOURCE_DIR = /home/natsand/Documents/ECS122B/googletest_project1/Prompt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build
+CMAKE_BINARY_DIR = /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/BoyerMoorePreprocessingLib.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/BoyerMoorePreprocessingLib.dir/flags.make
 
 CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.o: CMakeFiles/BoyerMoorePreprocessingLib.dir/flags.make
 CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.o: ../BoyerMoorePreprocessing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.o -c /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/BoyerMoorePreprocessing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.o -c /home/natsand/Documents/ECS122B/googletest_project1/Prompt/BoyerMoorePreprocessing.cpp
 
 CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/BoyerMoorePreprocessing.cpp > CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/natsand/Documents/ECS122B/googletest_project1/Prompt/BoyerMoorePreprocessing.cpp > CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.i
 
 CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/BoyerMoorePreprocessing.cpp -o CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/natsand/Documents/ECS122B/googletest_project1/Prompt/BoyerMoorePreprocessing.cpp -o CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.s
 
 CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/BoyerMoorePreprocessingLib.dir/BoyerMoorePreprocessing.cpp.o.provides
 
 CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.o: CMakeFiles/BoyerMoorePreprocessingLib.dir/flags.make
 CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.o: ../Zalgorithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.o -c /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.o -c /home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.cpp
 
 CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.cpp > CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.cpp > CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.i
 
 CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.cpp -o CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.cpp -o CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.s
 
 CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.o.requires:
 
@@ -117,7 +117,7 @@ libBoyerMoorePreprocessingLib.a: CMakeFiles/BoyerMoorePreprocessingLib.dir/Boyer
 libBoyerMoorePreprocessingLib.a: CMakeFiles/BoyerMoorePreprocessingLib.dir/Zalgorithm.cpp.o
 libBoyerMoorePreprocessingLib.a: CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make
 libBoyerMoorePreprocessingLib.a: CMakeFiles/BoyerMoorePreprocessingLib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libBoyerMoorePreprocessingLib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libBoyerMoorePreprocessingLib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/BoyerMoorePreprocessingLib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BoyerMoorePreprocessingLib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -136,6 +136,6 @@ CMakeFiles/BoyerMoorePreprocessingLib.dir/clean:
 .PHONY : CMakeFiles/BoyerMoorePreprocessingLib.dir/clean
 
 CMakeFiles/BoyerMoorePreprocessingLib.dir/depend:
-	cd /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wonhee/Desktop/GitHub/googletest_project1/Prompt /home/wonhee/Desktop/GitHub/googletest_project1/Prompt /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles/BoyerMoorePreprocessingLib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/natsand/Documents/ECS122B/googletest_project1/Prompt /home/natsand/Documents/ECS122B/googletest_project1/Prompt /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/BoyerMoorePreprocessingLib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/BoyerMoorePreprocessingLib.dir/depend
 

@@ -54,45 +54,84 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wonhee/Desktop/GitHub/googletest_project1/Prompt
+CMAKE_SOURCE_DIR = /home/natsand/Documents/ECS122B/googletest_project1/Prompt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build
+CMAKE_BINARY_DIR = /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/ZalgorithmSanityCheck.dir
+# Target rules for target CMakeFiles/BoyerMooreSanityCheck.dir
 
 # All Build rule for target.
-CMakeFiles/ZalgorithmSanityCheck.dir/all: CMakeFiles/ZalgorithmLib.dir/all
-	$(MAKE) -f CMakeFiles/ZalgorithmSanityCheck.dir/build.make CMakeFiles/ZalgorithmSanityCheck.dir/depend
-	$(MAKE) -f CMakeFiles/ZalgorithmSanityCheck.dir/build.make CMakeFiles/ZalgorithmSanityCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles --progress-num=6,7 "Built target ZalgorithmSanityCheck"
-.PHONY : CMakeFiles/ZalgorithmSanityCheck.dir/all
+CMakeFiles/BoyerMooreSanityCheck.dir/all: CMakeFiles/BoyerMooreLib.dir/all
+CMakeFiles/BoyerMooreSanityCheck.dir/all: CMakeFiles/BoyerMoorePreprocessingLib.dir/all
+CMakeFiles/BoyerMooreSanityCheck.dir/all: CMakeFiles/ZalgorithmLib.dir/all
+	$(MAKE) -f CMakeFiles/BoyerMooreSanityCheck.dir/build.make CMakeFiles/BoyerMooreSanityCheck.dir/depend
+	$(MAKE) -f CMakeFiles/BoyerMooreSanityCheck.dir/build.make CMakeFiles/BoyerMooreSanityCheck.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=10,11 "Built target BoyerMooreSanityCheck"
+.PHONY : CMakeFiles/BoyerMooreSanityCheck.dir/all
 
 # Include target in all.
-all: CMakeFiles/ZalgorithmSanityCheck.dir/all
+all: CMakeFiles/BoyerMooreSanityCheck.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ZalgorithmSanityCheck.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ZalgorithmSanityCheck.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles 0
-.PHONY : CMakeFiles/ZalgorithmSanityCheck.dir/rule
+CMakeFiles/BoyerMooreSanityCheck.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BoyerMooreSanityCheck.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 0
+.PHONY : CMakeFiles/BoyerMooreSanityCheck.dir/rule
 
 # Convenience name for target.
-ZalgorithmSanityCheck: CMakeFiles/ZalgorithmSanityCheck.dir/rule
+BoyerMooreSanityCheck: CMakeFiles/BoyerMooreSanityCheck.dir/rule
 
-.PHONY : ZalgorithmSanityCheck
-
-# clean rule for target.
-CMakeFiles/ZalgorithmSanityCheck.dir/clean:
-	$(MAKE) -f CMakeFiles/ZalgorithmSanityCheck.dir/build.make CMakeFiles/ZalgorithmSanityCheck.dir/clean
-.PHONY : CMakeFiles/ZalgorithmSanityCheck.dir/clean
+.PHONY : BoyerMooreSanityCheck
 
 # clean rule for target.
-clean: CMakeFiles/ZalgorithmSanityCheck.dir/clean
+CMakeFiles/BoyerMooreSanityCheck.dir/clean:
+	$(MAKE) -f CMakeFiles/BoyerMooreSanityCheck.dir/build.make CMakeFiles/BoyerMooreSanityCheck.dir/clean
+.PHONY : CMakeFiles/BoyerMooreSanityCheck.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BoyerMooreSanityCheck.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BoyerMoorePreprocessingLib.dir
+
+# All Build rule for target.
+CMakeFiles/BoyerMoorePreprocessingLib.dir/all:
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/depend
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=5,6,7 "Built target BoyerMoorePreprocessingLib"
+.PHONY : CMakeFiles/BoyerMoorePreprocessingLib.dir/all
+
+# Include target in all.
+all: CMakeFiles/BoyerMoorePreprocessingLib.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BoyerMoorePreprocessingLib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BoyerMoorePreprocessingLib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 0
+.PHONY : CMakeFiles/BoyerMoorePreprocessingLib.dir/rule
+
+# Convenience name for target.
+BoyerMoorePreprocessingLib: CMakeFiles/BoyerMoorePreprocessingLib.dir/rule
+
+.PHONY : BoyerMoorePreprocessingLib
+
+# clean rule for target.
+CMakeFiles/BoyerMoorePreprocessingLib.dir/clean:
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/clean
+.PHONY : CMakeFiles/BoyerMoorePreprocessingLib.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BoyerMoorePreprocessingLib.dir/clean
 
 .PHONY : clean
 
@@ -103,7 +142,7 @@ clean: CMakeFiles/ZalgorithmSanityCheck.dir/clean
 CMakeFiles/ZalgorithmLib.dir/all:
 	$(MAKE) -f CMakeFiles/ZalgorithmLib.dir/build.make CMakeFiles/ZalgorithmLib.dir/depend
 	$(MAKE) -f CMakeFiles/ZalgorithmLib.dir/build.make CMakeFiles/ZalgorithmLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles --progress-num=4,5 "Built target ZalgorithmLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=12,13 "Built target ZalgorithmLib"
 .PHONY : CMakeFiles/ZalgorithmLib.dir/all
 
 # Include target in all.
@@ -113,9 +152,9 @@ all: CMakeFiles/ZalgorithmLib.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ZalgorithmLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ZalgorithmLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 0
 .PHONY : CMakeFiles/ZalgorithmLib.dir/rule
 
 # Convenience name for target.
@@ -134,13 +173,89 @@ clean: CMakeFiles/ZalgorithmLib.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/BoyerMoorePreprocessingTests.dir
+
+# All Build rule for target.
+CMakeFiles/BoyerMoorePreprocessingTests.dir/all: CMakeFiles/BoyerMooreLib.dir/all
+CMakeFiles/BoyerMoorePreprocessingTests.dir/all: CMakeFiles/BoyerMoorePreprocessingLib.dir/all
+CMakeFiles/BoyerMoorePreprocessingTests.dir/all: CMakeFiles/ZalgorithmLib.dir/all
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingTests.dir/build.make CMakeFiles/BoyerMoorePreprocessingTests.dir/depend
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingTests.dir/build.make CMakeFiles/BoyerMoorePreprocessingTests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=8,9 "Built target BoyerMoorePreprocessingTests"
+.PHONY : CMakeFiles/BoyerMoorePreprocessingTests.dir/all
+
+# Include target in all.
+all: CMakeFiles/BoyerMoorePreprocessingTests.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BoyerMoorePreprocessingTests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BoyerMoorePreprocessingTests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 0
+.PHONY : CMakeFiles/BoyerMoorePreprocessingTests.dir/rule
+
+# Convenience name for target.
+BoyerMoorePreprocessingTests: CMakeFiles/BoyerMoorePreprocessingTests.dir/rule
+
+.PHONY : BoyerMoorePreprocessingTests
+
+# clean rule for target.
+CMakeFiles/BoyerMoorePreprocessingTests.dir/clean:
+	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingTests.dir/build.make CMakeFiles/BoyerMoorePreprocessingTests.dir/clean
+.PHONY : CMakeFiles/BoyerMoorePreprocessingTests.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BoyerMoorePreprocessingTests.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BoyerMooreLib.dir
+
+# All Build rule for target.
+CMakeFiles/BoyerMooreLib.dir/all:
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/depend
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=1,2,3,4 "Built target BoyerMooreLib"
+.PHONY : CMakeFiles/BoyerMooreLib.dir/all
+
+# Include target in all.
+all: CMakeFiles/BoyerMooreLib.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BoyerMooreLib.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BoyerMooreLib.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 0
+.PHONY : CMakeFiles/BoyerMooreLib.dir/rule
+
+# Convenience name for target.
+BoyerMooreLib: CMakeFiles/BoyerMooreLib.dir/rule
+
+.PHONY : BoyerMooreLib
+
+# clean rule for target.
+CMakeFiles/BoyerMooreLib.dir/clean:
+	$(MAKE) -f CMakeFiles/BoyerMooreLib.dir/build.make CMakeFiles/BoyerMooreLib.dir/clean
+.PHONY : CMakeFiles/BoyerMooreLib.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/BoyerMooreLib.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ZalgorithmTests.dir
 
 # All Build rule for target.
 CMakeFiles/ZalgorithmTests.dir/all: CMakeFiles/ZalgorithmLib.dir/all
 	$(MAKE) -f CMakeFiles/ZalgorithmTests.dir/build.make CMakeFiles/ZalgorithmTests.dir/depend
 	$(MAKE) -f CMakeFiles/ZalgorithmTests.dir/build.make CMakeFiles/ZalgorithmTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles --progress-num=8,9 "Built target ZalgorithmTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=16,17 "Built target ZalgorithmTests"
 .PHONY : CMakeFiles/ZalgorithmTests.dir/all
 
 # Include target in all.
@@ -150,9 +265,9 @@ all: CMakeFiles/ZalgorithmTests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ZalgorithmTests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ZalgorithmTests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 0
 .PHONY : CMakeFiles/ZalgorithmTests.dir/rule
 
 # Convenience name for target.
@@ -171,39 +286,39 @@ clean: CMakeFiles/ZalgorithmTests.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BoyerMoorePreprocessingLib.dir
+# Target rules for target CMakeFiles/ZalgorithmSanityCheck.dir
 
 # All Build rule for target.
-CMakeFiles/BoyerMoorePreprocessingLib.dir/all:
-	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/depend
-	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles --progress-num=1,2,3 "Built target BoyerMoorePreprocessingLib"
-.PHONY : CMakeFiles/BoyerMoorePreprocessingLib.dir/all
+CMakeFiles/ZalgorithmSanityCheck.dir/all: CMakeFiles/ZalgorithmLib.dir/all
+	$(MAKE) -f CMakeFiles/ZalgorithmSanityCheck.dir/build.make CMakeFiles/ZalgorithmSanityCheck.dir/depend
+	$(MAKE) -f CMakeFiles/ZalgorithmSanityCheck.dir/build.make CMakeFiles/ZalgorithmSanityCheck.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=14,15 "Built target ZalgorithmSanityCheck"
+.PHONY : CMakeFiles/ZalgorithmSanityCheck.dir/all
 
 # Include target in all.
-all: CMakeFiles/BoyerMoorePreprocessingLib.dir/all
+all: CMakeFiles/ZalgorithmSanityCheck.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BoyerMoorePreprocessingLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/BoyerMoorePreprocessingLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wonhee/Desktop/GitHub/googletest_project1/Prompt/build/CMakeFiles 0
-.PHONY : CMakeFiles/BoyerMoorePreprocessingLib.dir/rule
+CMakeFiles/ZalgorithmSanityCheck.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ZalgorithmSanityCheck.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 0
+.PHONY : CMakeFiles/ZalgorithmSanityCheck.dir/rule
 
 # Convenience name for target.
-BoyerMoorePreprocessingLib: CMakeFiles/BoyerMoorePreprocessingLib.dir/rule
+ZalgorithmSanityCheck: CMakeFiles/ZalgorithmSanityCheck.dir/rule
 
-.PHONY : BoyerMoorePreprocessingLib
-
-# clean rule for target.
-CMakeFiles/BoyerMoorePreprocessingLib.dir/clean:
-	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingLib.dir/build.make CMakeFiles/BoyerMoorePreprocessingLib.dir/clean
-.PHONY : CMakeFiles/BoyerMoorePreprocessingLib.dir/clean
+.PHONY : ZalgorithmSanityCheck
 
 # clean rule for target.
-clean: CMakeFiles/BoyerMoorePreprocessingLib.dir/clean
+CMakeFiles/ZalgorithmSanityCheck.dir/clean:
+	$(MAKE) -f CMakeFiles/ZalgorithmSanityCheck.dir/build.make CMakeFiles/ZalgorithmSanityCheck.dir/clean
+.PHONY : CMakeFiles/ZalgorithmSanityCheck.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/ZalgorithmSanityCheck.dir/clean
 
 .PHONY : clean
 

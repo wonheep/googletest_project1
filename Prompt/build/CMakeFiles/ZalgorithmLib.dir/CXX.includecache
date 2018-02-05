@@ -6,17 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.cpp
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.cpp
 list
 -
 string
 -
 vector
 -
+iterator
+-
+iostream
+-
+cstring
+-
 Zalgorithm.h
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.h
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.h
 
-/home/wonhee/Desktop/GitHub/googletest_project1/Prompt/Zalgorithm.h
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/Zalgorithm.h
 list
 -
 string

@@ -111,8 +111,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/ZalgorithmSanityCheck.dir/DependInfo.cmake"
-  "CMakeFiles/ZalgorithmLib.dir/DependInfo.cmake"
-  "CMakeFiles/ZalgorithmTests.dir/DependInfo.cmake"
+  "CMakeFiles/BoyerMooreSanityCheck.dir/DependInfo.cmake"
   "CMakeFiles/BoyerMoorePreprocessingLib.dir/DependInfo.cmake"
+  "CMakeFiles/ZalgorithmLib.dir/DependInfo.cmake"
+  "CMakeFiles/BoyerMoorePreprocessingTests.dir/DependInfo.cmake"
+  "CMakeFiles/BoyerMooreLib.dir/DependInfo.cmake"
+  "CMakeFiles/ZalgorithmTests.dir/DependInfo.cmake"
+  "CMakeFiles/ZalgorithmSanityCheck.dir/DependInfo.cmake"
   )
