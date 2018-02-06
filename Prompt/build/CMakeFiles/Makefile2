@@ -60,11 +60,50 @@ CMAKE_SOURCE_DIR = /home/natsand/Documents/ECS122B/googletest_project1/Prompt
 CMAKE_BINARY_DIR = /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build
 
 #=============================================================================
+# Target rules for target CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir
+
+# All Build rule for target.
+CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/all: CMakeFiles/BoyerMoorePreprocessingLib.dir/all
+CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/all: CMakeFiles/BoyerMooreLib.dir/all
+CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/all: CMakeFiles/ZalgorithmLib.dir/all
+	$(MAKE) -f CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/build.make CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/depend
+	$(MAKE) -f CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/build.make CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=12,13 "Built target TwoAlgorithmVerificationSanityCheck"
+.PHONY : CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/all
+
+# Include target in all.
+all: CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles 0
+.PHONY : CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/rule
+
+# Convenience name for target.
+TwoAlgorithmVerificationSanityCheck: CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/rule
+
+.PHONY : TwoAlgorithmVerificationSanityCheck
+
+# clean rule for target.
+CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/clean:
+	$(MAKE) -f CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/build.make CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/clean
+.PHONY : CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/BoyerMooreSanityCheck.dir
 
 # All Build rule for target.
-CMakeFiles/BoyerMooreSanityCheck.dir/all: CMakeFiles/BoyerMooreLib.dir/all
 CMakeFiles/BoyerMooreSanityCheck.dir/all: CMakeFiles/BoyerMoorePreprocessingLib.dir/all
+CMakeFiles/BoyerMooreSanityCheck.dir/all: CMakeFiles/BoyerMooreLib.dir/all
 CMakeFiles/BoyerMooreSanityCheck.dir/all: CMakeFiles/ZalgorithmLib.dir/all
 	$(MAKE) -f CMakeFiles/BoyerMooreSanityCheck.dir/build.make CMakeFiles/BoyerMooreSanityCheck.dir/depend
 	$(MAKE) -f CMakeFiles/BoyerMooreSanityCheck.dir/build.make CMakeFiles/BoyerMooreSanityCheck.dir/build
@@ -142,7 +181,7 @@ clean: CMakeFiles/BoyerMoorePreprocessingLib.dir/clean
 CMakeFiles/ZalgorithmLib.dir/all:
 	$(MAKE) -f CMakeFiles/ZalgorithmLib.dir/build.make CMakeFiles/ZalgorithmLib.dir/depend
 	$(MAKE) -f CMakeFiles/ZalgorithmLib.dir/build.make CMakeFiles/ZalgorithmLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=12,13 "Built target ZalgorithmLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=14,15 "Built target ZalgorithmLib"
 .PHONY : CMakeFiles/ZalgorithmLib.dir/all
 
 # Include target in all.
@@ -176,8 +215,8 @@ clean: CMakeFiles/ZalgorithmLib.dir/clean
 # Target rules for target CMakeFiles/BoyerMoorePreprocessingTests.dir
 
 # All Build rule for target.
-CMakeFiles/BoyerMoorePreprocessingTests.dir/all: CMakeFiles/BoyerMooreLib.dir/all
 CMakeFiles/BoyerMoorePreprocessingTests.dir/all: CMakeFiles/BoyerMoorePreprocessingLib.dir/all
+CMakeFiles/BoyerMoorePreprocessingTests.dir/all: CMakeFiles/BoyerMooreLib.dir/all
 CMakeFiles/BoyerMoorePreprocessingTests.dir/all: CMakeFiles/ZalgorithmLib.dir/all
 	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingTests.dir/build.make CMakeFiles/BoyerMoorePreprocessingTests.dir/depend
 	$(MAKE) -f CMakeFiles/BoyerMoorePreprocessingTests.dir/build.make CMakeFiles/BoyerMoorePreprocessingTests.dir/build
@@ -255,7 +294,7 @@ clean: CMakeFiles/BoyerMooreLib.dir/clean
 CMakeFiles/ZalgorithmTests.dir/all: CMakeFiles/ZalgorithmLib.dir/all
 	$(MAKE) -f CMakeFiles/ZalgorithmTests.dir/build.make CMakeFiles/ZalgorithmTests.dir/depend
 	$(MAKE) -f CMakeFiles/ZalgorithmTests.dir/build.make CMakeFiles/ZalgorithmTests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=16,17 "Built target ZalgorithmTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=18,19 "Built target ZalgorithmTests"
 .PHONY : CMakeFiles/ZalgorithmTests.dir/all
 
 # Include target in all.
@@ -292,7 +331,7 @@ clean: CMakeFiles/ZalgorithmTests.dir/clean
 CMakeFiles/ZalgorithmSanityCheck.dir/all: CMakeFiles/ZalgorithmLib.dir/all
 	$(MAKE) -f CMakeFiles/ZalgorithmSanityCheck.dir/build.make CMakeFiles/ZalgorithmSanityCheck.dir/depend
 	$(MAKE) -f CMakeFiles/ZalgorithmSanityCheck.dir/build.make CMakeFiles/ZalgorithmSanityCheck.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=14,15 "Built target ZalgorithmSanityCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles --progress-num=16,17 "Built target ZalgorithmSanityCheck"
 .PHONY : CMakeFiles/ZalgorithmSanityCheck.dir/all
 
 # Include target in all.

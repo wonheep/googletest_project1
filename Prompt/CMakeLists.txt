@@ -55,3 +55,9 @@ target_link_libraries(BoyerMooreSanityCheck BoyerMoorePreprocessingLib)
 
 
 ########## TODO: Add sanity check for both algorithms (call it TwoAlgorithmVerificationSanityCheck) here
+add_executable(TwoAlgorithmVerificationSanityCheck TwoAlgorithmVerificationSanityCheck.cpp)
+target_link_libraries(TwoAlgorithmVerificationSanityCheck gtest)
+target_link_libraries(TwoAlgorithmVerificationSanityCheck pthread)
+target_link_libraries(TwoAlgorithmVerificationSanityCheck ZalgorithmLib)
+target_link_libraries(TwoAlgorithmVerificationSanityCheck BoyerMooreLib)
+target_link_libraries(TwoAlgorithmVerificationSanityCheck BoyerMoorePreprocessingLib)

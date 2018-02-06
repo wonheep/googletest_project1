@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named TwoAlgorithmVerificationSanityCheck
+
+# Build rule for target.
+TwoAlgorithmVerificationSanityCheck: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TwoAlgorithmVerificationSanityCheck
+.PHONY : TwoAlgorithmVerificationSanityCheck
+
+# fast build rule for target.
+TwoAlgorithmVerificationSanityCheck/fast:
+	$(MAKE) -f CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/build.make CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/build
+.PHONY : TwoAlgorithmVerificationSanityCheck/fast
+
+#=============================================================================
 # Target rules for targets named BoyerMooreSanityCheck
 
 # Build rule for target.
@@ -312,6 +325,33 @@ BoyerMooreSanityCheck.cpp.s:
 	$(MAKE) -f CMakeFiles/BoyerMooreSanityCheck.dir/build.make CMakeFiles/BoyerMooreSanityCheck.dir/BoyerMooreSanityCheck.cpp.s
 .PHONY : BoyerMooreSanityCheck.cpp.s
 
+TwoAlgorithmVerificationSanityCheck.o: TwoAlgorithmVerificationSanityCheck.cpp.o
+
+.PHONY : TwoAlgorithmVerificationSanityCheck.o
+
+# target to build an object file
+TwoAlgorithmVerificationSanityCheck.cpp.o:
+	$(MAKE) -f CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/build.make CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/TwoAlgorithmVerificationSanityCheck.cpp.o
+.PHONY : TwoAlgorithmVerificationSanityCheck.cpp.o
+
+TwoAlgorithmVerificationSanityCheck.i: TwoAlgorithmVerificationSanityCheck.cpp.i
+
+.PHONY : TwoAlgorithmVerificationSanityCheck.i
+
+# target to preprocess a source file
+TwoAlgorithmVerificationSanityCheck.cpp.i:
+	$(MAKE) -f CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/build.make CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/TwoAlgorithmVerificationSanityCheck.cpp.i
+.PHONY : TwoAlgorithmVerificationSanityCheck.cpp.i
+
+TwoAlgorithmVerificationSanityCheck.s: TwoAlgorithmVerificationSanityCheck.cpp.s
+
+.PHONY : TwoAlgorithmVerificationSanityCheck.s
+
+# target to generate assembly for a file
+TwoAlgorithmVerificationSanityCheck.cpp.s:
+	$(MAKE) -f CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/build.make CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir/TwoAlgorithmVerificationSanityCheck.cpp.s
+.PHONY : TwoAlgorithmVerificationSanityCheck.cpp.s
+
 Zalgorithm.o: Zalgorithm.cpp.o
 
 .PHONY : Zalgorithm.o
@@ -406,6 +446,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... TwoAlgorithmVerificationSanityCheck"
 	@echo "... BoyerMooreSanityCheck"
 	@echo "... BoyerMoorePreprocessingLib"
 	@echo "... ZalgorithmLib"
@@ -426,6 +467,9 @@ help:
 	@echo "... BoyerMooreSanityCheck.o"
 	@echo "... BoyerMooreSanityCheck.i"
 	@echo "... BoyerMooreSanityCheck.s"
+	@echo "... TwoAlgorithmVerificationSanityCheck.o"
+	@echo "... TwoAlgorithmVerificationSanityCheck.i"
+	@echo "... TwoAlgorithmVerificationSanityCheck.s"
 	@echo "... Zalgorithm.o"
 	@echo "... Zalgorithm.i"
 	@echo "... Zalgorithm.s"

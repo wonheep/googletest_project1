@@ -1,4 +1,5 @@
 /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/edit_cache.dir
+/home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/TwoAlgorithmVerificationSanityCheck.dir
 /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/BoyerMooreSanityCheck.dir
 /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/BoyerMoorePreprocessingLib.dir
 /home/natsand/Documents/ECS122B/googletest_project1/Prompt/build/CMakeFiles/ZalgorithmLib.dir
