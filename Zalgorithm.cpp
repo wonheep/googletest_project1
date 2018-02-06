@@ -28,7 +28,7 @@ void ZalgorithmBasedMatching(const std::string& P, const std::string& T, std::li
     {
         // if Z[i] (matched region) is equal to pattern
         // length  we got the pattern
-        if (Z[i] == P.length())
+        if (Z[i] == P.length()-1)
             matches->push_back(i);
          
     }
