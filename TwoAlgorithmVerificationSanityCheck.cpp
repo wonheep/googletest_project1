@@ -40,6 +40,15 @@ TEST(TwoAlgorithmVerificationSanityCheck, SubstringMatchesInRandomString) {
     BoyerMoore(P,T,Sigma,&BoyerMooreMatches);
     ZalgorithmBasedMatching(P, T, &ZalgorithmMatches);
     EXPECT_EQ(BoyerMooreMatches.size(), ZalgorithmMatches.size());
+
+    // Testing ouptut purposes only
+    
+    std::list<int>::iterator bitr = BoyerMooreMatches.begin();
+    for(std::list<int>::iterator zitr = ZalgorithmMatches.begin(); zitr != ZalgorithmMatches.end(); zitr++){
+      printf("%d %d\n", *zitr, *bitr);
+      bitr++;
+    }
+    
   }
 
 }
@@ -56,6 +65,7 @@ TEST(TwoAlgorithmVerificationSanityCheck, RandomSubstringVsRandomString) {
   std::default_random_engine generator;
   std::uniform_int_distribution<int> letterDistribution(0, 25);
   std::uniform_int_distribution<int> substringDistribution(1, (RANDOM_STRING_SIZE-RANDOM_SUBSTRING_SIZE));
+
   
   for (int i = 0; i < NUM_TEST_CASES; i++) {
     std::string T = " ";
@@ -72,6 +82,16 @@ TEST(TwoAlgorithmVerificationSanityCheck, RandomSubstringVsRandomString) {
     BoyerMoore(P,T,Sigma,&BoyerMooreMatches);
     ZalgorithmBasedMatching(P, T, &ZalgorithmMatches);
     EXPECT_EQ(BoyerMooreMatches.size(), ZalgorithmMatches.size());
+
+    // difference of 6 characters
+    // Testing ouptut purposes only
+    
+    std::list<int>::iterator bitr = BoyerMooreMatches.begin();
+    for(std::list<int>::iterator zitr = ZalgorithmMatches.begin(); zitr != ZalgorithmMatches.end(); zitr++){
+      printf("%d %d\n", *zitr, *bitr);
+      bitr++;
+    }
+    
   }
 
 }
